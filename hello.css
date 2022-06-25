@@ -1,0 +1,9 @@
+div p {
+    color: red;
+}
+input [type = text]{
+    
+}
+a[target= '_blank'] {
+    color: green;
+}

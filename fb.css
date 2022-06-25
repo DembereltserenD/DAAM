@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items:center;
+}
+p {
+    color: dimgray;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.container {
+    border: 1px solid rgb(207, 195, 195);
+    height:480px;
+    width: 550px;
+}
+.Well {
+    margin-top: 15px;
+    margin-left: 5px;
+}

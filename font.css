@@ -1,0 +1,86 @@
+@import url(<link href="https://fonts.googleapis.com/css2?family=Anton&family=My+Soul&family=Tienne:wght@700&display=swap" rel="stylesheet">);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.main {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-auto-rows: 100px ;
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+.item {
+    box-shadow: 1px 1px 8px 3px #3333;
+}
+.item1 {
+    grid-area: 1/1/3/2;
+    background-color: aliceblue;
+    height: 1005px;
+}
+.item1 .img img {
+    width: 100%;
+}
+.item1 .img{
+    position: relative;
+}
+.item1 .img h2 {
+    position: relative;
+    bottom: 50px;
+    padding-left: 30px;
+    font-size: 36px;
+    color: white;
+}
+.item1 .img i {
+    font-size: 25px;
+}
+.item1 .img span {
+    font-size: 25px;
+    padding-left: 10px;
+}
+.item .img hr {
+    margin: 20px;
+    color: grey;
+}
+.img .container {
+    width: 100%;
+    background-color: grey;
+    border-radius: 20px;
+}
+.img .container .skill {
+    text-align: center;
+    background-color: #009688;
+    color: #fff;
+    padding: 8px;
+    border-radius: 20px 0px 0px 20px;
+}
+.img .container .ps {
+    width: 90%;
+}
+.img .container .pg {
+    width: 80%;
+}
+.img .container .noob {
+    width: 75%;
+}
+.img .container .carry {
+    width: 50%;
+}
+.img .container .build {
+    text-align: center;
+    background-color: #009688;
+    color: #009688;
+    padding: 8px;
+    border-radius: 20px 0px 0px 20px;
+}
+.img .container .critical {
+    width: 100%;
+    border-radius: 20px 20px 20px 20px;
+}
+.img .container .Ability {
+    width: 60%;
+}
+.img .container .support {
+    width: 30%;
+}

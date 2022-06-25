@@ -1,0 +1,26 @@
+.menu-bar ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.menu-bar ul li {
+    border: 1px solid black;
+    list-style: none;
+}
+.menu-bar ul li:hover {
+    background-color: aqua;
+    padding: 100px;
+    font-size: 100px;
+}
+.big {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    color: aquamarine;
+}
+.big:hover {
+    background-color: blueviolet;
+    color: blueviolet;
+    width: 350px;
+    height: 200px;
+}

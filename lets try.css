@@ -1,0 +1,110 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.black-bg {
+    background-color: black;
+    padding-bottom: 50px;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.nav-bar .nav-left p {
+    font-size: 18px;
+}
+.nav-bar .nav-left p:hover {
+    text-decoration: underline;
+}
+.test {
+    position: relative;
+    width: 1140px;
+}
+.container .iDesign {
+    background-color: rgba(37, 37, 49, 255);
+    color: rgba(255, 255, 255, 255);
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    padding: 25px 0;
+}
+.container .iDesign .shar {
+    color: rgba(223, 177, 99, 255);
+    padding-left: 50px;
+}
+.container .iDesign .Home {
+    color: rgba(223, 177, 99, 255);
+    padding-right: 27px;
+}
+.iDesign .iDesign-right {
+    font-size: 25px;
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+}
+.container .iDesign .About {
+    padding-right: 27px;
+}
+.container .iDesign .About:hover {
+    color: rgba(223, 177, 99, 255);
+}
+.container .iDesign .Service {
+    padding-right: 27px;
+}
+.container .iDesign .Service:hover {
+    color: rgba(223, 177, 99, 255);
+}
+.container .iDesign .Project {
+    padding-right: 27px;
+}
+.container .iDesign .Project:hover {
+    color: rgba(223, 177, 99, 255);
+}
+
+.container .iDesign .Pages {
+    padding-right: 27px;
+}
+.container .iDesign .Pages:hover {
+    color: rgba(223, 177, 99, 255);
+}
+.container .iDesign .Contact {
+    padding-right: 27px;
+}
+.container .iDesign .Contact:hover {
+    color: rgba(223, 177, 99, 255);
+}
+.icons .facebook {
+    padding-right: 20px;
+}
+.icons .twitter {
+    padding-right: 20px;
+}
+.icons .linked {
+    padding-right: 20px;
+}
+.icons .insta {
+    padding-right: 20px;
+}
+
+.menu-section {
+    background-color: aqua;
+}
+.menu {
+    height: 130px;
+    background-color: #fff;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
