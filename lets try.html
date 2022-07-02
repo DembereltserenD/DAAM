@@ -67,15 +67,99 @@
                         </div>
                     </div>
                     <div class="menu-item">
+                        <i></i>
                         <h5>Email Us</h5>
                         <p>mail@domain.com</p>
                     </div>
                     <div class="menu-item">
+                        <i></i>
                         <h5>Call Us</h5>
                         <p>+012 345 6789</p>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="slideshow-container">
+            <div class="mySlides">
+                <div class="cap">
+                    <img
+                        src="CSS Template Idesign_files/carousel-1.jpg"
+                        alt="picture 1"
+                    />
+                </div>
+                <div class="slide-text">
+                    <div class="text-primary">CREATIVE INTERIOR DESIGN</div>
+                    <br />
+                    <div class="text">
+                        <h1>Make Your Home Better</h1>
+                        <button class="primary-button">Learn more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="mySlides">
+                <div class="cap">
+                    <img
+                        src="./CSS Template Idesign_files/carousel-2.jpg"
+                        alt="picture 2"
+                    />
+                </div>
+                <div class="slide-text">
+                    <div class="text-primary">CREATIVE INTERIOR DESIGN</div>
+                    <br />
+                    <div class="text">
+                        <h1>Stay At Home In Peace</h1>
+                        <button class="primary-button">Learn more</button>
+                    </div>
+                </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <br />
+            <div style="text-align: center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+        </div>
+        <div class="aaw-container">
+            <div class="container">
+                <div class="row">
+                    <div class="left">
+                        <li></li>
+                        <h4>25+</h4>
+                        <h1>Years Experience</h1>
+                    </div>
+                    <div class="right"></div>
+                </div>
+            </div>
+        </div>
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides((slideIndex += n));
+            }
+
+            function currentSlide(n) {
+                showSlides((slideIndex = n));
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                if (n > slides.length) {
+                    slideIndex = 1;
+                }
+                if (n < 1) {
+                    slideIndex = slides.length;
+                }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
     </body>
 </html>
